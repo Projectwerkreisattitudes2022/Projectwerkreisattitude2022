@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.0" htmlParse="false">
+
+      <!-- title of the study -->
+      <item id="studyTitle">De verandering van attitude tegenover dagelijks werkverkeer en reisgedrag als gevolg van de pandemie</item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false)  -->
+     <item id="shuffleCards">true</item>
+
+     <!-- login required (true|false) -->
+     <item id="loginrequired">false</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">false</item>
+     <item id="showStep4">false</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+	 
+<note bg="false">All fields marked with an * are mandatory.</note>
+          
+<label>Age*</label>
+<note>Wat is uw leeftijd?</note>
+<input type="select" required="false">18-25;25-34;35-44;45-55;55+</input>
+  
+<label>Gender*</label>
+<note>Wat is uw geslacht?</note>
+<input type="radio" required="true">Man;Vrouw;Vermeld ik liever niet</input>
+          
+<label>Education*</label>
+<note>Wat is uw hoogst genoten opleiding?</note>
+<input type="select" required="false">Lager onderwijs;Middelbaar onderwijs;MBO;HBO;WO Bachelor;WO Master</input>
+          
+<label>Jobsector*</label>
+<note>In welke bedrijfssector bent u werkzaam?</note>
+<input type="checkbox" required="false">Geen, ik ben full-time student;Financiele dienstverlening;Informatie en communicatie dienstverlening;Openbaar bestuur;Overige zakelijke dienstverlening;Ingenieurs, architecten en technisch ontwerp, advies, keuring en controle;Kunst, cultuur en sport;Speur- en ontwikkelingswerk;Arbeidsbemiddeling, uitzenbureaus en personeelsbeheer;Waterbedrijven en afvalbeheer;Vervaardiging van machines;Onderwijs;Groothandel;Bouwnijverheid;Gezondheid, verpleging, maatschappelijke dienstverlening en wellness;Vervaardiging van niet metaal producten;Vervaardiging van metalen product;Vervoer en opslag;Vervaardiging van meudelsgoederen;Vervaardiging van voedingsmiddelen, dranken en tabak;Detailhandel;Beveiliging en Facility management;Horeca</input>
+
+<label>JobFunction*</label>
+<note>Welke functie vervult u binnen uw bedrijf?</note>
+<input type="select" required="false">>Geen, ik ben full time student;Kantoor;Buitendienst;Productie;Management;Zorgfunctie;Onderwijs;Andersf</input> 
+
+<label>JobPosition*</label>
+<note>Welke positie vervult u binnen uw bedrijf?</note>
+<input type="select" required="false">Geen, ik ben full time student;Werknemer;Werkgever;Zelfstandige-Eenmansbedrijf</input> 
+         
+<label>Car ownership*</label>
+<note>Bezit u een auto</note>
+<input type="radio" required="true">Ja;Nee;Niet meer</input>         
+         
+         
+<label>PrepandemicCommuteCar*</label>
+<note>Hoeveel dagen per week reisde u in een gemiddelde werkweek met de auto naar uw werk of studie VOOR de pandemie en (geforceerd) thuiswerken?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>
+         
+<label>PrepandemicCommutePT*</label>
+<note>Hoeveel dagen per week reisde u in een gemiddelde werkweek met het OV naar uw werk of studie VOOR de pandemie en (geforceerd) thuiswerken?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>         
+         
+<label>PrepandemicCommuteWalkcycling*</label>
+<note>Hoeveel dagen per week reisde u in een gemiddelde werkweek fietsend of lopend naar uw werk of studie VOOR de pandemie en (geforceerd) thuiswerken?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>         
+         
+<label>PrepandemicCommuteWFH*</label>
+<note>Hoeveel dagen per week werkte of studeerde u in een gemiddelde werkweek VOOR de pandemie (gedeeltelijk) thuis?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>
+         
+
+         
+         
+         
+<label>PostpandemicCommuteCar*</label>
+<note>Hoeveel dagen per week reist u in een gemiddelde werkweek met de auto naar uw werk of studie NA de pandemie en (geforceerd) thuiswerken?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>
+         
+<label>PostpandemicCommutePT*</label>
+<note>Hoeveel dagen per week reist u in een gemiddelde werkweek met het OV naar uw werk of studie NA de pandemie en (geforceerd) thuiswerken?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>         
+         
+<label>PostpandemicCommuteWalkcycling*</label>
+<note>Hoeveel dagen per week reist u in een gemiddelde werkweek fietsend of lopend naar uw werk of studie NA de pandemie en (geforceerd) thuiswerken?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>         
+         
+<label>PostpandemicCommuteWFH*</label>
+<note>Hoeveel dagen per week werkt of studeert u in een gemiddelde werkweek NA de pandemie (gedeeltelijk) thuis?</note>
+<input type="radio" required="true">0;1;2;3;4;5;6;7</input>
+         
+         
+     
+<label>Commute-post*</label>
+<note>Bent u van plan na de COVID-19 pandemie terug te keren naar uw oude reispatroon?</note>
+<input type="radio" required="true">Ja, volledig;Nee;Gedeeltelijk</input>      
+         
+         
+         
+<label>MCQmening*</label>
+<note>Vond u het makkelijk om op basis van uw mening opinie-stellingen te rangschikken?</note>
+<input type="radio" required="true">Ja, ik vond het makkelijk.;Nee, ik ervoer hier problemen mee.;Neutraal/Geen mening</input>
+        
+<label>OpenQmening</label>
+<note>Heeft u hier nog verdere opmerkingen over?</note>
+<input type="textarea" required="false"></input>
+             
+<label>MCQdynamic*</label>
+<note>In dit onderzoek is specifiek gekeken naar dynamiek in attitude, ofwel stellingen die doorgaans een verandering in mening (als gevolg van de pandemie) omvatten, in plaats van een statische mening op zich. Vond u het makkelijk om stellingen te rangschikken als gevolg van de verandering in uw mening?</note>
+<input type="radio" required="true">Ja, ik vond het makkelijk.;Nee, ik ervoer hier problemen mee.;Neutraal/Geen mening</input>
+
+<label>OpenQdynamic</label>  
+<note>Heeft u hier nog verdere opmerkingen over?</note>
+<input type="textarea" required="false"></input>
+    
+<label>OpenEvaluation</label>  
+<note>Heeft u in het algemeen nog opmerkingen over de vragenlijst die u heeft ingevuld?</note>
+<input type="textarea" required="false"></input> 
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>
