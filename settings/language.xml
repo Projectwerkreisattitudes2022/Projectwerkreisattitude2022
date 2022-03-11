@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Ga verder..</item>
+        <item id="btnclose">Sluiten</item>
+        <item id="btnHelp">Help mij!</item>
+        <item id="btnAgreement">Eens</item>
+        <item id="btnNeutral">Neutraal</item>
+        <item id="btnDisagreement">Oneens</item>
+        <item id="btnTransfer">Verstuur data</item>
+        <item id="btnExit">Sluiten</item>
+        <item id="selectItem">Selecteer alstublieft..</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Uw antwoorden zullen verloren gaan.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Terug</item>
+        <item id="fillInRequiredFields">Vul alstublieft alle vereiste velden in.</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Maximaliseer alstublieft uw browser wanneer u de vragenlijst invult.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welkom!</item>
+        <item id="welcomeText">Welkom! U wordt uitgenodigd om deel te nemen aan een Master’s afstudeeronderzoek genaamd: Changing attitudes towards the daily commute and travel due to the pandemic. Dit onderzoek wordt uitgevoerd door Jeffrey Huisman, masterstudent aan de TU Delft, als onderdeel van een grotere trend in onderzoeken aan de universiteit naar reisgedrag veranderingen als gevolg van de pandemie.{br}{br}
+        Het doel van dit onderzoek is om de veranderingen in werk en studie gerelateerd reisgedrag en daaraan gerelateerde meningsveranderingen (Attitude veranderingen) als gevolg van de pandemie te onderzoeken en zal ongeveer 20 minuten in beslag nemen. De data zal gebruikt worden om statistisch significante opinieprofielen op te stellen die bestaande maatschappelijke perspectieven in de Nederlandse maatschappij voorstellen. Deze data zal gepubliceerd worden binnen een TU Delft Master’s thesis afstudeerscriptie. {br}{br}
+        Klik alstublieft op de ga verder knop. {br}{br}
+        Let op! U wordt verzocht enkel deel te nemen aan dit onderzoek wanneer u: {br}{br}
+        --  Mogelijk (gedeeltelijk) thuis kan werken/studeren of in het verleden (al dan niet verplicht) thuis hebt gewerkt/gestudeerd, bijvoorbeeld als gevolg van de pandemie. {br}{br}
+        --  Over de leeftijd van 18 jaar oud bent. {br}{br}
+        --  Op het moment werkt of studeert, of in de afgelopen 2 jaar hebt gewerkt of gestudeerd. {br}{br}
+        U wordt gevraagd om een vragenlijst in te vullen opgedeeld in 3 onderdelen:{br}{br}
+        1. Het invullen van de Q-sort vragenlijst, waarin u op basis van uw mening stellingen rangschikt. {br}{br}
+        2. Enkele multiple choice vragen over u en uw reisgedrag. {br}{br}
+        3. Enkele evaluatie vragen over hoe u de vragenlijst ervaren heeft. {br}{br}
+        Het belangrijkste onderdeel van de vragenlijst is dit eerste onderdeel, waarin u wordt gevraagd een 50 tal stellingen te rangschikken in een mal van categorieën variërend van erg oneens tot erg eens. Wanneer een stelling niet bijzonder invloed heeft op uw reisgedrag of u geen sterk gevoel heeft over de stelling, rangschikt u deze neutraal. Het rangschikken van de stellingen gebeurt in een mal, die u forceert afwegingen te maken tussen de stellingen. {br}{br}
+        Zoals bij elke online activiteit is het risico van een databreuk aanwezig. Wij doen ons best om uw antwoorden vertrouwelijk te houden. Risico’s van het onderzoek zijn echter vergaand verkleind vanwege het feit dat data anoniem wordt verzameld. Uw deelname aan dit onderzoek is volledig vrijwillig en u kunt zich elk moment terugtrekken zonder reden op te geven, u bent dus vrij om deze vragen niet te beantwoorden. U hoeft geen e-mail of naam op te geven en de data die wordt verzameld is compleet geanonimiseerd. Mocht u verdere vragen hebben, dan kan u het onderzoek contacteren via J.R.Huisman@student.tudelft.nl. {br}{br}
+        Doorklikken naar de rest van de survey betekent dat u als respondent instemt met de punten beschreven in deze opening statement. {br}{br}    </item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please insert the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Introduction</item>
+  <item id="introText">Dit is een onderzoek naar reisgedrag. Wij zijn geinteresseerd in de veranderingen van uw attitude tegenover werk en studie gerelateerd reisgedrag als gevolg van de pandemie.{br}{br}De vragen en stellingen die u voorgelegd krijgt zijn voornamelijk ontwikkeld voor thuiswerken. U kunt als full-time student voor het merendeel van deze vragen thuiswerken ook als thuisstuderen opvatten.{br}{br}Maximaliseer alstublieft uw browser en klik op de continue-button om verder te gaan met deze vragenlijst.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Stap 1 van 3</item>
+  <item id="step1Text">In deze stap maakt u in enkele minuten een voorlopige voorsortering van stellingen gebaseerd op uw mening. Lees de volgende stellingen door en verdeel ze naar uw eerste inzicht alstublieft in 3 groepen: een groep stellingen waar u het mee oneens bent, een groep stellingen waar u het mee eens bent en een groep overgebleven stellingen. Over deze laatste stellingen heeft u een neutrale mening, of deze stellingen zijn simpelweg niet relevant voor u. {br}{br}U kan de blokjes met de stellingen naar de 3 kolommen dragen, of u kan ze verdelen door op 1, 2 of 3 te drukken. Probeer een redelijk gelijke verdeling te behalen in de grootte van de eens en oneens groepen. Veranderingen kunnen later worden gemaakt, u kunt deze stap dus redelijk snel doorlopen.{br}{br}Als u deze uitleg nogmaals wilt lezen, klik dan op de help-button linksonderin.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Stap 2 van 3</item>
+  <item id="step2Text">Nu is het aan u om de stellingen die u in de "EENS" en "ONEENS" groepen hebt verdeeld in de mal in te vullen. Lees de stellingen in de "EENS" groep door, u kunt scrollen door de stellingen met de scroll bar. Selecteer vervolgens de statements waarmee u het meest eens bent en plaats deze in de score kolom onder "+5".{br}{br}Lees nu de stellingen in de "ONEENS" groep door en plaats de stellingen waarmee u het meest oneens bent in de "-5" kolom.{br}{br}Selecteer vervolgens de stellingen waarmee u het in mindere mate eens of oneens mee bent en plaats deze onder "+4" tot en met "+1" voor eens en "-4" tot en met "-1" voor oneens. Volg deze procedure voor alle stellingen in de EENS en ONEENS groepen.{br}{br}Als laatste, lees de stellingen in de neutrale groep door en plaats ze in de overgebleven vakjes in het score formulier.{br}{br} 
+  U kunt de stellingen ook op uw eigen manier/tempo rangschikken: terugwerken naar het midden of uitbouwen vanuit het midden is beiden mogelijk, net als bovenaan de groepen beginnen. Maar, zoveel mogelijk vanuit buiten naar binnen werken is aangeraden, omdat dit de nood tot herangschikken vermindert.{br}{br} 
+  Mocht u een stelling na willen lezen nadat u deze in de mal hebt geplaatst, hover dan met uw muis boven het stellingskaartje.</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Step 3 of 5</item>
+  <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and shift cards if you want to.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">Step 4 of 5</item>
+  <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+
+  <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Stap 3 van 3</item>
+  <item id="step5Text">U bent nu zo goed als klaar met de survey! Als laatst willen wij u enkele vragen stellen over uw achtergrond en over uw ervaring met de vragenlijst.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Afronden vragenlijst</item>
+        <item id="transferText">U heeft de vragenlijst afgerond. Verstuur uw antwoorden alstublieft.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Bedankt voor het opsturen van uw antwoorden en uw deelname aan dit onderzoek!</item>   
+   </language>
